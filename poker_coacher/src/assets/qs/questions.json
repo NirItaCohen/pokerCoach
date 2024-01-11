@@ -4,7 +4,7 @@
       "id": 1,
       "questionType": "hvh",
       "question": "",
-      "answersAmount": 4,
+      "answersAmount": 3,
       "answers": [
         {
           "id": 1,
@@ -19,11 +19,6 @@
         {
           "id": 3,
           "answer": "48%",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "answer": "35%",
           "isCorrect": false
         }
       ]
@@ -32,7 +27,7 @@
       "id": 2,
       "questionType": "hvh",
       "question": "",
-      "answersAmount": 4,
+      "answersAmount": 3,
       "answers": [
         {
           "id": 1,
@@ -47,11 +42,6 @@
         {
           "id": 3,
           "answer": "48%",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "answer": "35%",
           "isCorrect": false
         }
       ]
@@ -60,7 +50,7 @@
       "id": 3,
       "questionType": "hvr",
       "question": "",
-      "answersAmount": 4,
+      "answersAmount": 3,
       "answers": [
         {
           "id": 1,
@@ -75,11 +65,6 @@
         {
           "id": 3,
           "answer": "48%",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "answer": "35%",
           "isCorrect": false
         }
       ]
@@ -88,7 +73,7 @@
       "id": 4,
       "questionType": "hvr",
       "question": "",
-      "answersAmount": 4,
+      "answersAmount": 3,
       "answers": [
         {
           "id": 1,
@@ -103,11 +88,6 @@
         {
           "id": 3,
           "answer": "48%",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "answer": "35%",
           "isCorrect": false
         }
       ]
@@ -116,7 +96,7 @@
       "id": 5,
       "questionType": "rvr",
       "question": "",
-      "answersAmount": 4,
+      "answersAmount": 3,
       "answers": [
         {
           "id": 1,
@@ -131,11 +111,6 @@
         {
           "id": 3,
           "answer": "48%",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "answer": "35%",
           "isCorrect": false
         }
       ]
@@ -144,7 +119,7 @@
       "id": 6,
       "questionType": "rvr",
       "question": "",
-      "answersAmount": 4,
+      "answersAmount": 3,
       "answers": [
         {
           "id": 1,
@@ -159,11 +134,6 @@
         {
           "id": 3,
           "answer": "48%",
-          "isCorrect": false
-        },
-        {
-          "id": 4,
-          "answer": "35%",
           "isCorrect": false
         }
       ]
