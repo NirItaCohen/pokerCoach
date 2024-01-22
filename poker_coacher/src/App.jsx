@@ -1,7 +1,11 @@
 import "./App.css";
-
+import Trainer from "./pages/Trainer";
 function App() {
-  return <></>;
+  return (
+    <>
+      <Trainer />
+    </>
+  );
 }
 
 export default App;

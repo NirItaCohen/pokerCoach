@@ -1,7 +1,7 @@
 import React from "react";
 
-function Question() {
-  return <div>Question</div>;
+function EquityQS() {
+  return <div>EquityQS</div>;
 }
 
-export default Question;
+export default EquityQS;
