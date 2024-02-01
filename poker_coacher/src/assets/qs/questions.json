@@ -2,11 +2,9 @@
   "questions": [
     {
       "id": 1,
-      "questionType": "hvh",
-      "question": {
-        "hand1": ["Ah","Jd"],
-        "hand2": ["Ks","Qd"]
-      },
+      "questionType": "equity",
+      "subType": "hvh",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
       "answersAmount": 3,
       "answers": [
         {
@@ -28,7 +26,8 @@
     },
     {
       "id": 2,
-      "questionType": "hvh",
+      "questionType": "equityQs",
+      "subType": "",
       "question": "",
       "answersAmount": 3,
       "answers": [
@@ -51,7 +50,8 @@
     },
     {
       "id": 3,
-      "questionType": "hvr",
+      "questionType": "equityQs",
+      "subType": "",
       "question": "",
       "answersAmount": 3,
       "answers": [
@@ -74,7 +74,8 @@
     },
     {
       "id": 4,
-      "questionType": "hvr",
+      "questionType": "equityQs",
+      "subType": "",
       "question": "",
       "answersAmount": 3,
       "answers": [
@@ -97,7 +98,8 @@
     },
     {
       "id": 5,
-      "questionType": "rvr",
+      "questionType": "equityQs",
+      "subType": "",
       "question": "",
       "answersAmount": 3,
       "answers": [
@@ -120,7 +122,8 @@
     },
     {
       "id": 6,
-      "questionType": "rvr",
+      "questionType": "equityQs",
+      "subType": "",
       "question": "",
       "answersAmount": 3,
       "answers": [
