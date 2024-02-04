@@ -26,9 +26,9 @@
     },
     {
       "id": 2,
-      "questionType": "equityQs",
-      "subType": "",
-      "question": "",
+      "questionType": "equity",
+      "subType": "hvh",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
       "answersAmount": 3,
       "answers": [
         {
@@ -50,9 +50,9 @@
     },
     {
       "id": 3,
-      "questionType": "equityQs",
-      "subType": "",
-      "question": "",
+      "questionType": "equity",
+      "subType": "hvr",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
       "answersAmount": 3,
       "answers": [
         {
@@ -74,9 +74,9 @@
     },
     {
       "id": 4,
-      "questionType": "equityQs",
-      "subType": "",
-      "question": "",
+      "questionType": "equity",
+      "subType": "hvr",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
       "answersAmount": 3,
       "answers": [
         {
@@ -98,9 +98,9 @@
     },
     {
       "id": 5,
-      "questionType": "equityQs",
-      "subType": "",
-      "question": "",
+      "questionType": "equity",
+      "subType": "rvr",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
       "answersAmount": 3,
       "answers": [
         {
@@ -122,9 +122,129 @@
     },
     {
       "id": 6,
-      "questionType": "equityQs",
+      "questionType": "equity",
+      "subType": "rvr",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "answersAmount": 3,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "85%",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "90%",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "48%",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "questionType": "position",
+      "subType": "rvr",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "answersAmount": 3,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "85%",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "90%",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "48%",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "questionType": "position",
       "subType": "",
-      "question": "",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "answersAmount": 3,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "85%",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "90%",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "48%",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "questionType": "position",
+      "subType": "",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "answersAmount": 3,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "85%",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "90%",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "48%",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "questionType": "table",
+      "subType": "",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "answersAmount": 3,
+      "answers": [
+        {
+          "id": 1,
+          "answer": "85%",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "90%",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "48%",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "questionType": "table",
+      "subType": "",
+      "question": ["Ah", "Jd", "Ks", "Qd"],
       "answersAmount": 3,
       "answers": [
         {

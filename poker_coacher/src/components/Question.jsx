@@ -2,6 +2,17 @@ import React from "react";
 import EquityQS from "../views/EquityQS";
 
 function Question({ data }) {
+  const getQsTitle = () => {
+    switch (data.subType) {
+      case "hvh":
+        return <h2>{data.questionType.toUpperCase()}: Hand VS Hand</h2>;
+      case "hvr":
+        return <h2>{data.questionType.toUpperCase()}: Hand VS Range</h2>;
+      case "rvr":
+        return <h2>{data.questionType.toUpperCase()}: Range VS Range</h2>;
+    }
+  };
+
   const generateQuestion = () => {
     switch (data.questionType) {
       case "equity":
@@ -15,8 +26,8 @@ function Question({ data }) {
 
   return (
     <>
-      <h2>question</h2>
-      {generateQuestion()}
+      <div className="mb-3">{getQsTitle()}</div>
+      <div className="bg-white rounded h-3/5 w-4/5 ">{generateQuestion()}</div>
     </>
   );
 }

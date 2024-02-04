@@ -11,8 +11,7 @@ function Trainer() {
   }, []);
 
   return (
-    <div className="bg-slate-200 w-75 h-full">
-      <h3></h3>
+    <div className="bg-slate-200 w-full h-full flex flex-col items-center">
       {!isLoading ? <Question data={qs[0]} /> : <h3>loading...</h3>}
     </div>
   );
