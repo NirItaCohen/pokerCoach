@@ -28,7 +28,7 @@
       "id": 2,
       "questionType": "equity",
       "subType": "hvh",
-      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "question": ["6h", "6d", "As", "Qd"],
       "answersAmount": 3,
       "answers": [
         {
@@ -52,23 +52,23 @@
       "id": 3,
       "questionType": "equity",
       "subType": "hvr",
-      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "question": ["3h", "5d", "9s", "4d"],
       "answersAmount": 3,
       "answers": [
         {
           "id": 1,
-          "answer": "85%",
+          "answer": "75%",
           "isCorrect": true
         },
         {
           "id": 2,
-          "answer": "90%",
+          "answer": "81%",
           "isCorrect": false
         },
         {
           "id": 3,
-          "answer": "48%",
-          "isCorrect": false
+          "answer": "68%",
+          "isCorrect": true
         }
       ]
     },
@@ -76,22 +76,22 @@
       "id": 4,
       "questionType": "equity",
       "subType": "hvr",
-      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "question": ["7h", "7d", "As", "10d"],
       "answersAmount": 3,
       "answers": [
         {
           "id": 1,
-          "answer": "85%",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "answer": "90%",
+          "answer": "77%",
           "isCorrect": false
         },
         {
+          "id": 2,
+          "answer": "61%",
+          "isCorrect": true
+        },
+        {
           "id": 3,
-          "answer": "48%",
+          "answer": "56%",
           "isCorrect": false
         }
       ]
@@ -100,22 +100,22 @@
       "id": 5,
       "questionType": "equity",
       "subType": "rvr",
-      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "question": ["10h", "10d", "Qs", "Jd"],
       "answersAmount": 3,
       "answers": [
         {
           "id": 1,
-          "answer": "85%",
+          "answer": "52%",
           "isCorrect": true
         },
         {
           "id": 2,
-          "answer": "90%",
+          "answer": "62%",
           "isCorrect": false
         },
         {
           "id": 3,
-          "answer": "48%",
+          "answer": "43%",
           "isCorrect": false
         }
       ]
@@ -124,22 +124,22 @@
       "id": 6,
       "questionType": "equity",
       "subType": "rvr",
-      "question": ["Ah", "Jd", "Ks", "Qd"],
+      "question": ["Kh", "3d", "8s", "7d"],
       "answersAmount": 3,
       "answers": [
         {
           "id": 1,
-          "answer": "85%",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "answer": "90%",
+          "answer": "24%",
           "isCorrect": false
         },
         {
+          "id": 2,
+          "answer": "43%",
+          "isCorrect": true
+        },
+        {
           "id": 3,
-          "answer": "48%",
+          "answer": "67%",
           "isCorrect": false
         }
       ]

@@ -1,18 +1,24 @@
-import React, { useEffect, useState } from "react";
-import questions from "../assets/qs/questions.json";
-import Question from "../components/Question";
-function Trainer() {
-  const [qs, setQs] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+import React, { useState } from "react";
 
-  useEffect(() => {
-    setQs(questions.questions);
-    setIsLoading(false);
-  }, []);
+import Questions from "../components/Questions";
+function Trainer() {
+  const [isStartTrain, setIsStartTrain] = useState(true);
+
+  const handleStartTrain = () => {
+    setIsStartTrain((prev) => !prev);
+  };
+
+  const startBtn = () => {
+    return (
+      <button onClick={handleStartTrain}>
+        {"click start train".toUpperCase()}
+      </button>
+    );
+  };
 
   return (
     <div className="bg-slate-200 w-full h-full flex flex-col items-center">
-      {!isLoading ? <Question data={qs[0]} /> : <h3>loading...</h3>}
+      {isStartTrain ? <Questions /> : startBtn()}
     </div>
   );
 }
